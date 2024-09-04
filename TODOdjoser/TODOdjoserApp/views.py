@@ -1,0 +1,3 @@
+from rest_framework_simplejwt.authentication import JWTAuthentication
+from permissions import IsOwner
+from rest_framework.permissions import IsAuthenticated
